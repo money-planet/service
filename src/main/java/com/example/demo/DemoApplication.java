@@ -10,7 +10,7 @@ import java.io.InputStreamReader;
 @SpringBootApplication
 public class DemoApplication {
 
-    public static void main(String[] args) throws IOException {
+    public static void main(String[] args) {
         SpringApplication.run(DemoApplication.class, args);
         try {
             Process process = Runtime.getRuntime().exec("python3 /Users/liuqin/PycharmProjects/stockBot/speculator1.py");
